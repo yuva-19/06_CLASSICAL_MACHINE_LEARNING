@@ -1,0 +1,91 @@
+# ================================
+# Python
+# ================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ================================
+# Jupyter Notebook
+# ================================
+
+.ipynb_checkpoints/
+
+# ================================
+# Python Packaging
+# ================================
+
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ================================
+# Environment & Secrets
+# ================================
+
+.env
+.env.*
+!.env.example
+
+# ================================
+# IDE / Editor
+# ================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# OS Files
+# ================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Logs
+# ================================
+
+*.log
+
+# ================================
+# Machine Learning Artifacts
+# ================================
+
+# Saved models / serialized objects
+*.pkl
+*.pickle
+*.joblib
+
+# Model caches
+.mlflow/
+mlruns/
+
+# ================================
+# Data
+# ================================
+
+# Uncomment if datasets should NOT be committed
+*.csv
+*.xlsx
+*.json
+# data/raw/
+# data/processed/
+
+# ================================
+# Flask
+# ================================
+
+instance/
+.webassets-cache/
